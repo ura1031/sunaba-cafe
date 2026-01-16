@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>すなばカフェ</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="page">
+
+    <!-- ナビ -->
+    <header class="header">
+      <nav class="nav">
+        <a class="nav__btn" href="#concept">コンセプト</a>
+        <a class="nav__btn" href="#menu">メニュー</a>
+        <a class="nav__btn" href="#access">アクセス</a>
+      </nav>
+    </header>
+
+    <!-- メインビジュアル -->
+    <section class="hero" aria-label="SUNABA CAFE">
+      <div class="hero__bg" role="img" aria-label="カフェ店内の写真"></div>
+      <div class="hero__titlebox">
+        <h1 class="hero__title">すなばカフェ</h1>
+        <p class="hero__sub">SUNABA CAFÉ</p>
+      </div>
+    </section>
+
+    <!-- コンセプト -->
+    <section id="concept" class="section">
+      <div class="section__label">コンセプト</div>
+      <div class="section__panel section__panel--center">
+  安らげる空間をあなたに。<br>
+  創業当時から変わらない味と、どこか懐かしい店内で、<br>
+  日常の喧騒を忘れるひとときをお過ごしください。<br>
+  一杯のコーヒーに、長年の想いを込めてお迎えします。
+</div>
+    </section>
+
+    <!-- メニュー -->
+    <section id="menu" class="section">
+      <div class="section__label">メニュー</div>
+
+      <div class="menu">
+        <div class="menu__grid">
+
+          <!-- コーヒー -->
+          <article class="menu__card">
+            <div class="menu__head">コーヒー</div>
+<ul class="menu__list">
+  <li>ブレンド <span class="price">¥450</span></li>
+  <li>アメリカン <span class="price">¥450</span></li>
+</ul>
+            <img class="menu__img"
+                 src="images/coffee.jpg"
+                 alt="コーヒー" />
+          </article>
+
+          <!-- ジュース -->
+          <article class="menu__card">
+            <div class="menu__head">ジュース</div>
+<ul class="menu__list">
+  <li>オレンジ <span class="price">¥400</span></li>
+  <li>イチゴ <span class="price">¥400</span></li>
+</ul>
+            <img class="menu__img"
+                 src="images/orange.jpg"
+                 alt="オレンジジュース" />
+          </article>
+
+          <!-- ケーキ -->
+          <article class="menu__card">
+            <div class="menu__head">ケーキ</div>
+<ul class="menu__list">
+  <li>ショートケーキ <span class="price">¥480</span></li>
+  <li>モンブラン <span class="price">¥520</span></li>
+</ul>
+            <img class="menu__img"
+                 src="images/cake.jpg"
+                 alt="ケーキ" />
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 営業時間（写真帯） -->
+    <section class="hours" aria-label="営業時間">
+      <div class="hours__bg" role="img" aria-label="店内の雰囲気"></div>
+      <div class="hours__overlay">
+        <p class="hours__label">営業時間</p>
+        <p class="hours__time">9:00 – 18:00</p>
+        <p class="hours__days">月曜日 – 金曜日</p>
+      </div>
+    </section>
+
+    <!-- アクセス -->
+<section id="access" class="section">
+  <div class="section__label">アクセス</div>
+
+  <div class="access__panel">
+    <p class="access__text">新大阪駅徒歩3分</p>
+
+    <!-- 地図 -->
+    <div class="map">
+      <iframe
+        src="https://www.google.com/maps?q=新大阪駅&output=embed"
+        width="100%"
+        height="220"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+  </div>
+</body>
+</html>
